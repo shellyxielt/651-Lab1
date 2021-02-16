@@ -1,0 +1,149 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.log {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.log a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+}
+
+.log a:hover {
+  color: white;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.log a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+}
+
+.log a:hover {
+  color: white;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.form-group {
+	width:400px;
+	margin:auto;
+	margin-top:20px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 0 30px 0;
+} 
+
+input,
+.btn {
+  width: auto;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.col {
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.example {
+	float:center;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: white;
+  margin: 0px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: lightskyblue;
+  color: white;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.example input button{
+	margin:0;
+}
+
+.book_list {
+	padding-left :20px;
+}
