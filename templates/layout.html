@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href= "{{ url_for('static',filename='style.css') }}">
+    </head>
+    <body>
+        <div class = 'log'>
+            {% if 'user_id' in session %}
+                <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+                <a href="{{ url_for('login') }}">Login</a>
+            {% endif %}
+                <a href="{{ url_for('books')}}">Books</a>
+        </div>
+        <div class="main">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
